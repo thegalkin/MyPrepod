@@ -35,6 +35,11 @@ public class RequestPerformer{
 				argumentsNames.append("uid")
 			case "poolsGetQuestions":
 				argumentsNames.append("tid") //ID препода
+			case "posting":
+				argumentsNames.append("text")
+				argumentsNames.append("id")
+				argumentsNames.append("api") //задавать, как "true" для получения JSON данных при обращении
+			
 			default:
 				throw requestError.invalidArguments(requestType, requestArguments)
 		}
