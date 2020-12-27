@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		399382442598B83600CABE00 /* MyPrepodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399382432598B83600CABE00 /* MyPrepodApp.swift */; };
 		399382462598B83600CABE00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399382452598B83600CABE00 /* ContentView.swift */; };
 		399382482598B83900CABE00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399382472598B83900CABE00 /* Assets.xcassets */; };
 		3993824B2598B83900CABE00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3993824A2598B83900CABE00 /* Preview Assets.xcassets */; };
+		399382562598BE3600CABE00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399382542598BE3600CABE00 /* AppDelegate.swift */; };
+		399382572598BE3600CABE00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399382552598BE3600CABE00 /* SceneDelegate.swift */; };
+		3993825B2598D2EB00CABE00 /* examplePrepodDescription.json in Resources */ = {isa = PBXBuildFile; fileRef = 3993825A2598D2EB00CABE00 /* examplePrepodDescription.json */; };
+		3993825E2598D80400CABE00 /* Prepod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3993825D2598D80400CABE00 /* Prepod.swift */; };
+		399382612598E0D400CABE00 /* RequestPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399382602598E0D400CABE00 /* RequestPerformer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		399382402598B83600CABE00 /* MyPrepod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPrepod.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		399382432598B83600CABE00 /* MyPrepodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPrepodApp.swift; sourceTree = "<group>"; };
 		399382452598B83600CABE00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		399382472598B83900CABE00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3993824A2598B83900CABE00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3993824C2598B83900CABE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		399382542598BE3600CABE00 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		399382552598BE3600CABE00 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3993825A2598D2EB00CABE00 /* examplePrepodDescription.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = examplePrepodDescription.json; sourceTree = "<group>"; };
+		3993825D2598D80400CABE00 /* Prepod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prepod.swift; sourceTree = "<group>"; };
+		399382602598E0D400CABE00 /* RequestPerformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestPerformer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,12 @@
 		399382422598B83600CABE00 /* MyPrepod */ = {
 			isa = PBXGroup;
 			children = (
-				399382432598B83600CABE00 /* MyPrepodApp.swift */,
 				399382452598B83600CABE00 /* ContentView.swift */,
+				399382542598BE3600CABE00 /* AppDelegate.swift */,
+				3993825D2598D80400CABE00 /* Prepod.swift */,
+				399382602598E0D400CABE00 /* RequestPerformer.swift */,
+				3993825A2598D2EB00CABE00 /* examplePrepodDescription.json */,
+				399382552598BE3600CABE00 /* SceneDelegate.swift */,
 				399382472598B83900CABE00 /* Assets.xcassets */,
 				3993824C2598B83900CABE00 /* Info.plist */,
 				399382492598B83900CABE00 /* Preview Content */,
@@ -127,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3993824B2598B83900CABE00 /* Preview Assets.xcassets in Resources */,
+				3993825B2598D2EB00CABE00 /* examplePrepodDescription.json in Resources */,
 				399382482598B83900CABE00 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				399382562598BE3600CABE00 /* AppDelegate.swift in Sources */,
+				3993825E2598D80400CABE00 /* Prepod.swift in Sources */,
 				399382462598B83600CABE00 /* ContentView.swift in Sources */,
-				399382442598B83600CABE00 /* MyPrepodApp.swift in Sources */,
+				399382612598E0D400CABE00 /* RequestPerformer.swift in Sources */,
+				399382572598BE3600CABE00 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +288,7 @@
 				DEVELOPMENT_TEAM = HHHRYEM4G2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MyPrepod/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +310,7 @@
 				DEVELOPMENT_TEAM = HHHRYEM4G2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MyPrepod/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
